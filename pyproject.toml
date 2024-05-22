@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "autostat"
+version = "0.1.0"
+description = ""
+authors = ["Jordan Poles <jpoles1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xgboost = "^2.0.3"
+jupyter = "^1.0.0"
+langchain = "^0.2.0"
+langchain-openai = "^0.1.7"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
