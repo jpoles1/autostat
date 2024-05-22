@@ -13,6 +13,7 @@ langchain = "^0.2.0"
 langchain-openai = "^0.1.7"
 pandas = "^2.2.2"
 numpy = "^1.26.4"
+interpret = "^0.6.1"
 
 
 [build-system]
